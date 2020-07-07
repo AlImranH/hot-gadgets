@@ -22,6 +22,15 @@ button{
     background-image: linear-gradient(to right, #FF9C35, #FFD019);
     transition: all 1s;
 }
+.slider-img{
+    background: url('images/product-text.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 10%;
+}
+.slider-img img{
+    width: 90%;
+}
 .see-all{
     color: orange;
 }
