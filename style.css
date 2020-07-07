@@ -1,0 +1,61 @@
+section{
+    margin-bottom: 100px;
+}
+button{
+    font-size: 20px;
+}
+.nav-link{
+    padding: 0.5rem 1.2rem !important;
+}
+.carousel-indicators{
+    bottom: -40px !important;
+}
+.carousel-indicators li{
+    background-color: grey;
+    height: 12px !important;
+    width: 16px;
+    align-self: center;
+    transition: all 1s;
+}
+.carousel-indicators li.active{
+    width: 48px !important;
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+    transition: all 1s;
+}
+.see-all{
+    color: orange;
+}
+h5.price{
+    margin: 30px 0px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 10px 40px lightgray;
+    border-radius: 10px !important;
+    padding: 10px 0px !important;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+    margin: 20px 0px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+.box:hover{
+    border: 1px solid orange;
+}
+.categories hr{
+    width: 180px;
+    height: 10px;
+    border-top: none;
+    background-image: linear-gradient(to left, #FF9C35, #FFD019);
+}
+.bag-box{
+    border-radius: 0px 10px 0px 15px;
+}
+.perfume-box, .shoe-box{
+    border-radius: 10px 0px 15px 0px;
+}
+.categories img{
+    width: 100%;
+}
